@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: linear-gradient(225deg, rgba(90,181,32,0.4430147058823529) 0%, rgba(72,187,29,1) 92%);
+}
+
+
+.todo-container, header h1{
+    margin: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.todo-container{
+    border: chartreuse solid;
+    min-height: 50vh;
+    
+}
+
+
+.newItemsMarkup{
+    border: solid black 1px;
+
+}
+
+.container1{
+    width: 200px;
+    height: 200px;
+    border: black solid 1px;
+}
