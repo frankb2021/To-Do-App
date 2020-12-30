@@ -27,11 +27,7 @@ body{
 
 .newItemsMarkup{
     border: solid black 1px;
-
+    margin: 10px;
+    font-size: 30px;
 }
 
-.container1{
-    width: 200px;
-    height: 200px;
-    border: black solid 1px;
-}
