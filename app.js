@@ -4,11 +4,7 @@ const todoInput = document.querySelector('.to-do-input');
 const todoButton = document.querySelector('.to-do-button');
 const todoList = document.querySelector('.to-do-list');
 
-
-// event
-
-
-todoList.addEventListener('click', deletecheck);
+// event add todo and if
 todoButton.addEventListener('click', function(event){
 event.preventDefault();
 
@@ -28,21 +24,15 @@ if(todoInput){
 
 })
 
- function deletecheck(e){
+
+
+// event delete button
+
+todoList.addEventListener('click',function(e){
     const item = e.target;
-    
-if(item.classList[0] === "deleteitem"){
-    const todo = item.parentElement;
-    todo.remove();
+    if(item.classList[0] === "deleteitem"){
+        const todo = item.parentElement;
+        todo.remove();
 
- 
-
- }
-}
-
-    
- 
-
-
-
-
+    }
+})
